@@ -1,2 +1,4 @@
-# howtowithdog
-things i did that i think are cool and maybe you think they're cool to. 
+# heya pals, welcome to how-to with dog
+
+## Here's a quick overview of all the things in this repository. For guides, it will link to the wiki!
+
