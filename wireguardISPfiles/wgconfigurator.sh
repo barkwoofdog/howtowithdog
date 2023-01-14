@@ -44,15 +44,15 @@ if [ $listenAnswer = "y" ]; then
 
      echo "" >> /etc/wireguard/wg1.conf   
 
-     echo "PostUp = iptables -t nat -A PREROUTING -p tcp -i eth0 --match multiport '!' --dports 22 -j DNAT --to-destination HOMESERVER-WGIP; iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to-source THISHOST-IP
+     echo "PostUp = iptables -t nat -A PREROUTING -p tcp -i eth0 --match multiport '!' --dport 22 -j DNAT --to-destination HOMESERVER-WGIP; iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to-source THISHOST-IP
 PostUp = iptables -t nat -A PREROUTING -p udp -i eth0 '!' --dport $userListen -j DNAT --to-destination HOMESERVER-WGIP;
 
-PostDown = iptables -t nat -D PREROUTING -p tcp -i eth0 --match multiport '!' --dports 22 -j DNAT --to-destination HOMESERVER-WGIP; iptables -t nat -D POSTROUTING -o eth0 -j SNAT --to-source THISHOST-IP
+PostDown = iptables -t nat -D PREROUTING -p tcp -i eth0 --match multiport '!' --dport 22 -j DNAT --to-destination HOMESERVER-WGIP; iptables -t nat -D POSTROUTING -o eth0 -j SNAT --to-source THISHOST-IP
 PostDown = iptables -t nat -D PREROUTING -p udp -i eth0 '!' --dport $userListen -j DNAT --to-destination HOMESERVER-WGIP;" >> /etc/wireguard/wg1.conf
 
 printf "\n"
 
-echo "REMINDER. You need to add your Home Servers Wireguard IP and This Host's IPv4 Address to the Firewall rules "
+echo "REMINDER. You need to add your Home Servers Wireguard IP and This Hosts IPv4 Address to the Firewall rules "
 echo "ALSO, be wary of your interface. This script has assumed that your public IPv4 is tied to eth0 "
 
 printf "\n"
