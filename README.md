@@ -3,6 +3,6 @@
 ## Here's a quick overview of all the things in this repository. For guides, it will link to the wiki!
 
 
-## Hosting Your Own Server & Bypassing Your ISP w/ Wireguard
+## [Hosting Your Own Server & Bypassing Your ISP w/ Wireguard](https://github.com/barkwoofdog/howtowithdog/wiki/Hosting-Your-Own-Server-&-Bypassing-Your-ISP-w--Wireguard)
 
 circumvent any ISP silliness whether it be CGNAT or a Dynamic IPv4 address by creating a secure tunnel between a remote vps server, and a machine in your home.
