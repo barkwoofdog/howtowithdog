@@ -52,7 +52,8 @@ PostDown = iptables -t nat -D PREROUTING -p udp -i eth0 '!' --dport $userListen 
 
 printf "\n"
 
-echo "REMINDER. You need to add your Home Servers Wireguard IP and This Hosts IPv4 Address to the Firewall rules "
+echo "REMINDER. You need to add your Home Servers Wireguard IP and This Hosts IPv4 Address to the Firewall rules"
+echo "These swaps are marked as HOMESERVER-WGIP (the IP of your other host inside wireguard) and THISHOST-IP"
 echo "ALSO, be wary of your interface. This script has assumed that your public IPv4 is tied to eth0 "
 
 printf "\n"
