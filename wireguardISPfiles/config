@@ -1,0 +1,6 @@
+Host 
+  HostName 
+  User 
+  IdentityFile ~/.ssh/
+  IdentitiesOnly yes
+
