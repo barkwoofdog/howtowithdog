@@ -2,7 +2,7 @@
 
 ## [Hosting Your Own Server & Bypassing Your ISP w/ Wireguard](https://github.com/barkwoofdog/howtowithdog/wiki/Hosting-Your-Own-Server-&-Bypassing-Your-ISP-with--Wireguard)
 
-circumvent any ISP silliness whether it be CGNAT or a Dynamic IPv4 address by creating a secure tunnel between a remote vps server, and a machine in your home.
+circumvent any ISP silliness whether it be CGNAT or a Dynamic IPv4 address by creating a secure tunnel between a remote vps server that acts as a traffic forwarder and a machine in your home acting as the actual server.
 
 
 ## Set up Fail2Ban for Easy Protection of Services
