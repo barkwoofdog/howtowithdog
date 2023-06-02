@@ -5,6 +5,6 @@
 circumvent any ISP silliness whether it be CGNAT or a Dynamic IPv4 address by creating a secure tunnel between a remote vps server that acts as a traffic forwarder and a machine in your home acting as the actual server.
 
 
-## Set up Fail2Ban for Easy Protection of your Hosted Services
+## [Set up Fail2Ban for Easy Protection of your Hosted Services](https://github.com/barkwoofdog/howtowithdog/wiki/Protect-Ya-Neck-with-Fail2Ban)
 
 if you host anything on the Internet then the chances are that some bot from somewhere is going to want in. Automatically block these jokers with [Fail2Ban](https://www.fail2ban.org/wiki/index.php/Main_Page)
