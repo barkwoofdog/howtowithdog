@@ -1,4 +1,4 @@
-## heya pals, welcome to how-to with dog. Here's a quick overview of all the things in this repository. Guides link to the [wiki](https://github.com/barkwoofdog/howtowithdog/wiki)!
+## Anything interest you here? Guides link to the [wiki](https://github.com/barkwoofdog/howtowithdog/wiki)! Enjoy your stay.
 
 ## [Hosting Your Own Server & Bypassing Your ISP w/ Wireguard](https://github.com/barkwoofdog/howtowithdog/wiki/Hosting-Your-Own-Server-&-Bypassing-Your-ISP-with--Wireguard)
 
