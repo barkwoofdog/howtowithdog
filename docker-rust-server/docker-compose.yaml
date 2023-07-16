@@ -3,8 +3,10 @@ version: '3'
 services:
   server:
     restart: always
+    #the below name is how this container will be referenced by docker
     container_name: rust_server
     image: didstopia/rust-server:latest
+    #a bind mound is ALWAYS recommended if you are self-hosting in your home. If you are using something like DigitalOcean or Linode a Volume may be better
     volumes:
     - /pathto/bindmount/:/steamcmd/rust
     environment: 
