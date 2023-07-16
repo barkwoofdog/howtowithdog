@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  server:
+    restart: always
+    container_name: rust_server
+    image: didstopia/rust-server:latest
+    volumes:
+    - /path/to/bindmount/:/steamcmd/rust
+    environment: 
+    - TZ=America/Chicago
+    - RUST_SERVER_NAME= this is what shows in the Server Browser
+    - RUST_SERVER_DESCRIPTION= a short blurb about your server
+    - RUST_SERVER_SAVE_INTERVAL= seconds until a save occurs
+    - RUST_RCON_WEB= 1/0 enable/disable RCON
+    - RUST_UPDATE_CHECKING= 1/0 enable checking for update to RUST on server start
+    ports:
+    - 28015:28015
+    - 28015:28015/udp
+    - 28016:28016
+    - 28082:28082
