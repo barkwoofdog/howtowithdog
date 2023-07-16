@@ -9,6 +9,9 @@ circumvent any ISP silliness whether it be CGNAT or a Dynamic IPv4 address by cr
 
 if you host anything on the Internet then the chances are that some bot from somewhere is going to want in. Automatically block these jokers with [Fail2Ban](https://www.fail2ban.org/wiki/index.php/Main_Page)
 
+## Run a RUST Survival Server Inside of Docker
+
+While RUST is an extremely popular game and a great [Container](https://github.com/Didstopia/rust-server) exists for it, there is unfortunately not a ton of documentation on getting it working via [docker-compose](https://docs.docker.com/compose/). Hopefully this solves some headaches for folks that come after me
 
 ## Run Multiple Minecraft Servers with SRV Records and NGINX Proxy Manager
 
