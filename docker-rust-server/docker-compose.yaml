@@ -16,8 +16,9 @@ services:
     - RUST_SERVER_DESCRIPTION=the best rust server ever
     #how often the game state saves in seconds. The below value is 15 minutes
     - RUST_SERVER_SAVE_INTERVAL=900
-    #RCON is enabled by setting this value to 1, but then you need to change default password by using RUST_RCON_PASSWORD
+    #Enables/Disables the Web Interface for RCON. Be sure to set RUST_RCON_PASSWORD
     - RUST_RCON_WEB=0
+    - RUST_RCON_PASSWORD = mysupersecurepassword
     #Updates on container start if set to 1
     - RUST_UPDATE_CHECKING=1
     - RUST_SERVER_MAXPLAYERS=15
@@ -29,7 +30,7 @@ services:
     #Game ports
     - 28015:28015
     - 28015:28015/udp
-    #Query Port
+    #RCON Port. Be sure you have set RUST_RCON_PASSWORD
     - 28016:28016
     #RUST+ Port. The app lets you remote detonate explosives, watch cameras and more. Super cool!
     - 28082:28082
