@@ -9,7 +9,7 @@ circumvent any ISP silliness whether it be CGNAT or a Dynamic IPv4 address by cr
 
 if you host anything on the Internet then the chances are that some bot from somewhere is going to want in. Automatically block these jokers with [Fail2Ban](https://www.fail2ban.org/wiki/index.php/Main_Page)
 
-## Run HTOP on MacOS and get **REAL** Results!
+## [Run HTOP on MacOS and get **REAL** Results!](https://github.com/barkwoofdog/howtowithdog/wiki/Get-Real-Results-with-HTOP-on-MacOS)
 
 if you are running [Homebrew](https://brew.sh/) HTOP on your machine running MacOS, then your results are NOT consistent with Activity Monitor.
 
