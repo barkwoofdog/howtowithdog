@@ -13,6 +13,6 @@ if you host anything on the Internet then the chances are that some bot from som
 
 if you are running [Homebrew](https://brew.sh/) HTOP on your machine running MacOS, then your results are NOT consistent with Activity Monitor.
 
-## Run Multiple Minecraft Servers with SRV Records and NGINX Proxy Manager
+## [Run Multiple Minecraft Servers with DNS SRV Records](https://github.com/barkwoofdog/howtowithdog/wiki/Host-Multiple-Minecraft-Servers-with-SRV-Records-&-Docker)
 
-Not to brag but I have more than 1 group of friends who like playing Minecraft. I host all the Minecraft servers in my friend group and I use my Domain Provider Cloudflare, and [NGINX Proxy Manager](https://nginxproxymanager.com/) to get my pals where they need to go (the four weeks a year they want to go there)
+Not to brag but I have more than 1 group of friends who like playing Minecraft. I host all the Minecraft servers in my friend groups and I make a unique and fun use of DNS to get my pals where they need to go (the four weeks a year they want to go there)
